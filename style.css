@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #ff6f61;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features, .cards, .steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-card, .card, .step-card {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.contact-section form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer {
+  background: #222;
+  color: #eee;
+  padding: 20px;
+}
